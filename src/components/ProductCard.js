@@ -18,16 +18,7 @@ export const ProductCard = ({product}) => {
     }, [cartList, product.id])
     
     
-    function handleAdd(product)
-  {
-    dispatch(add(product))
     
-  }
-  function handleRemove(product)
-    {
-      dispatch(remove(product));
-      
-    }
   return (
     
     <div className='m-10 w-80'>
